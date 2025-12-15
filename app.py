@@ -5,7 +5,7 @@ import numpy as np
 # 1. Load the trained model
 # Make sure 'exercise_model.pkl' is in the same folder as this app.py file
 try:
-    model = joblib.load('exercise_calories.pkl')
+    model = joblib.load('Calories(Linear).pkl')
 except FileNotFoundError:
     st.error("Model file not found. Please export 'exercise_model.pkl' from your notebook and place it here.")
     st.stop()
